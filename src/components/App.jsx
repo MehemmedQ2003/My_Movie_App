@@ -1,5 +1,5 @@
 import React from "react";
-// import SearchBar from "./SearchBar";
+import SearchBar from "./SearchBar";
 import MovieList from "./MovieList";
 
 class App extends React.Component {
@@ -34,9 +34,9 @@ class App extends React.Component {
       m => m.id !== movie.id
     )
 
-    this.setState({
+    this.setState(state => ({
       movies: newMovieList
-    })
+    }))
   }
 
   render(){
@@ -44,7 +44,7 @@ class App extends React.Component {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            {/* <SearchBar /> */}
+            <SearchBar />
           </div>
         </div>
         <MovieList 

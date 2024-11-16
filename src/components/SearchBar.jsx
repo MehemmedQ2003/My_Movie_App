@@ -1,13 +1,31 @@
-import React from "react"
+import React from "react";
 
 class SearchBar extends React.Component {
-  render(){
+  state = {
+    searchQuery: ""
+  };
+
+  handleFormSubmit = (event) => {
+    event.preventDefault();
+  }
+
+  render() {
     return (
-      <div>
-        <h1>Search Bar</h1>
-      </div>
-    )
+      <form onSubmit={this.handleFormSubmit}>
+        <div className="form-row mb-5 mt-3">
+          <div className="col-lg-12">
+            <input
+              onChange={(event) => this.setState({searchQuery: event.target.value})}
+              value={this.state.searchQuery}
+              type="text"
+              placeholder="Search movie"
+              className="form-control"
+            />
+          </div>
+        </div>
+      </form>
+    );
   }
 }
 
-export default SearchBar
+export default SearchBar;
