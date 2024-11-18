@@ -1,35 +1,35 @@
 {
     "movies": [
         {
-            "id": 1,
+            "id": "1",
             "name": "Peygamber(s.a.s)",
             "rating": 10,
             "overview": "This film was very well received in the Islamic community",
             "imageUrl": "https://img.fullhdfilmizlesene.de/poster/izle-lg/fullhd-hz-muhammed-allah-in-elcisi.webp"
         },
         {
-            "id": 2,
+            "id": "2",
             "name": "Hz Suleyman",
             "rating": 9.5,
             "overview": "This film was very well received in the Islamic community",
             "imageUrl": "https://img.fullhdfilmizlesene.de/poster/izle-lg/fullhd-hz-suleymanin-kralligi-molke-soleiman.webp"
         },
         {
-            "id": 3,
+            "id": "3",
             "name": "Caghri",
             "rating": 9,
             "overview": "This film was very well received in the Islamic community",
             "imageUrl": "https://img.fullhdfilmizlesene.de/poster/izle-lg/fullhd-aara-the-message-1977-480p.webp"
         },
         {
-            "id": 4,
+            "id": "4",
             "name": "Fetih 1453",
             "rating": 8.5,
             "overview": "A historical film about the conquest of Constantinople by Sultan Mehmed II.",
             "imageUrl": "https://img.fullhdfilmizlesene.de/poster/izle-lg/fetih-1453-2-96247.webp"
         },
         {
-            "id": 5,
+            "id": "5",
             "name": "Ertugrul",
             "rating": 9.7,
             "overview": "A popular series about the life of Ertuğrul Bey, the father of Osman I, founder of the Ottoman Empire.",

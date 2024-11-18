@@ -1,38 +1,56 @@
 import React from "react";
 import SearchBar from "./SearchBar";
 import MovieList from "./MovieList";
+import axios from "axios";
 
 class App extends React.Component {
   state = {
     movies: [],
 
-    searchQuery:""
+    searchQuery: ""
   };
 
-  async componentDidMount(){
-    const baseUrl = "http://localhost:5174/movies";
-    const response = await fetch(baseUrl);
-    console.log(response);
-    const data = await response.json();
-    console.log(data)
-    this.setState({movies: data})
+  async componentDidMount() {
+    const response = await axios.get("http://localhost:5174/movies");
+    this.setState({ movies: response.data })
   }
 
-  deleteMovie = (movie) => {
+  // ! ***************** Fetch Api delete ***************** \\
+  // deleteMovie = async (movie) => {
+
+  //   const baseUrl = `http://localhost:5174/movies/${movie.id}`;
+  //   await fetch(baseUrl, {
+  //     method: "DELETE"
+  //   })
+
+  //   const newMovieList = this.state.movies.filter(
+  //     m => m.id !== movie.id
+  //   )
+
+  //   this.setState({
+  //     movies: newMovieList
+  //   })
+  // }
+
+  // ! ***************** Axios delete ***************** \\
+  deleteMovie = async (movie) => {
+
+    axios.delete(`http://localhost:5174/movies/${movie.id}`);
+
     const newMovieList = this.state.movies.filter(
       m => m.id !== movie.id
     )
 
-    this.setState(state => ({
+    this.setState({
       movies: newMovieList
-    }))
+    })
   }
 
   searchMovie = (event) => {
-    this.setState({searchQuery: event.target.value})
+    this.setState({ searchQuery: event.target.value })
   }
 
-  render(){
+  render() {
     let filteredMovie = this.state.movies.filter((movie) => {
       return movie.name.toLowerCase().indexOf(this.state.searchQuery.toLowerCase()) !== -1
     })
@@ -45,7 +63,7 @@ class App extends React.Component {
             />
           </div>
           <div className="col-lg-12 px-5">
-            <MovieList 
+            <MovieList
               movies={filteredMovie}
               deleteMovieProp={this.deleteMovie}
             />
