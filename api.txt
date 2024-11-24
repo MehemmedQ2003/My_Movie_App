@@ -1,0 +1,27 @@
+['API Key']
+274c12e6e2e4f9ca265a01d107280eba 
+
+<<<<<<---------------------------------------------------------------->>>>>>
+
+['Movies']
+https://api.themoviedb.org/3/movie/550?api_key=274c12e6e2e4f9ca265a01d107280eba
+
+<<<<<<---------------------------------------------------------------->>>>>>
+
+['Popular Movies']
+https://api.themoviedb.org/3/movie/popular?api_key=274c12e6e2e4f9ca265a01d107280eba&language=en-US&page=1
+
+<<<<<<---------------------------------------------------------------->>>>>>
+
+['API Read Access Token (v4 auth)']
+eyJhbGciOiJlUzI1NiJ9.eyJhdWQiOilyNzRjMTJINmUyZTRmOWNhMjY1YTAXZDEwNzI4MGVİYSIsInN1YiI6IjVmNDc3MGVhODEzY212MDAzM zhkMTkyYylsInNjb3Blcyl6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uljoxfQ.7JAJAR2mP8XwfCqFIVIWJOgQF6PtkBrdznM-dwTbz-l
+
+<<<<<<---------------------------------------------------------------->>>>>>
+
+['My lists' movies']
+https://api.themoviedb.org/3/list/8498687?api_key=274c12e6e2e4f9ca265a01d107280eba&language=en-US
+
+<<<<<<---------------------------------------------------------------->>>>>>
+
+['Remove movie from the list']
+https://api.themoviedb.org/3/list/8498687/remove_item?media_id=209112&session_id=4e9ff43b10cc4aef878a0ba95d9fcf9b80a335d1&api_key=274c12e6e2e4f9ca265a01d107280eba
