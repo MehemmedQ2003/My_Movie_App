@@ -1,39 +1,60 @@
 {
-    "movies": [
-        {
-            "id": "1",
-            "name": "Peygamber(s.a.s)",
-            "rating": 10,
-            "overview": "This film was very well received in the Islamic community",
-            "imageUrl": "https://img.fullhdfilmizlesene.de/poster/izle-lg/fullhd-hz-muhammed-allah-in-elcisi.webp"
-        },
-        {
-            "id": "2",
-            "name": "Hz Suleyman",
-            "rating": 9.5,
-            "overview": "This film was very well received in the Islamic community",
-            "imageUrl": "https://img.fullhdfilmizlesene.de/poster/izle-lg/fullhd-hz-suleymanin-kralligi-molke-soleiman.webp"
-        },
-        {
-            "id": "3",
-            "name": "Caghri",
-            "rating": 9,
-            "overview": "This film was very well received in the Islamic community",
-            "imageUrl": "https://img.fullhdfilmizlesene.de/poster/izle-lg/fullhd-aara-the-message-1977-480p.webp"
-        },
-        {
-            "id": "4",
-            "name": "Fetih 1453",
-            "rating": 8.5,
-            "overview": "Conquest of Constantinople by Sultan Mehmed II.",
-            "imageUrl": "https://img.fullhdfilmizlesene.de/poster/izle-lg/fetih-1453-2-96247.webp"
-        },
-        {
-            "id": "5",
-            "name": "Ertugrul",
-            "rating": 9.7,
-            "overview": "A popular series about the life of Ertuğrul Bey, the father of Osman I, founder of the Ottoman Empire.",
-            "imageUrl": "https://m.media-amazon.com/images/I/61aiMK0teML._UF1000,1000_QL80_.jpg"
-        }
-    ]
+  "movies": [
+    {
+      "id": "1",
+      "name": "Peygamber(s.a.s)",
+      "rating": 10,
+      "overview": "This film was very well received in the Islamic community",
+      "imageUrl": "https://img.fullhdfilmizlesene.de/poster/izle-lg/fullhd-hz-muhammed-allah-in-elcisi.webp"
+    },
+    {
+      "id": "2",
+      "name": "Hz Suleyman",
+      "rating": 9.5,
+      "overview": "This film was very well received in the Islamic community",
+      "imageUrl": "https://img.fullhdfilmizlesene.de/poster/izle-lg/fullhd-hz-suleymanin-kralligi-molke-soleiman.webp"
+    },
+    {
+      "id": "3",
+      "name": "Caghri",
+      "rating": 9,
+      "overview": "This film was very well received in the Islamic community",
+      "imageUrl": "https://img.fullhdfilmizlesene.de/poster/izle-lg/fullhd-aara-the-message-1977-480p.webp"
+    },
+    {
+      "id": "4",
+      "name": "Fetih 1453",
+      "rating": 8.5,
+      "overview": "Conquest of Constantinople by Sultan Mehmed II.",
+      "imageUrl": "https://img.fullhdfilmizlesene.de/poster/izle-lg/fetih-1453-2-96247.webp"
+    },
+    {
+      "id": "5",
+      "name": "Ertugrul",
+      "rating": 9.7,
+      "overview": "A popular series about the life of Ertuğrul Bey, the father of Osman I.",
+      "imageUrl": "https://m.media-amazon.com/images/I/61aiMK0teML._UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Hz. Muhammed ve Mucizeleri",
+      "rating": 10,
+      "overview": "Muhammad Peygamber(s.a.s) Allahın(c.c) resuludur.",
+      "imageUrl": "https://img.fullhdfilmizlesene.de/poster/izle-lg/fullhd-hz-muhammed-ve-mucizeleri.webp"  
+    },
+    {
+      "id": "7",
+      "name": "Alparsaln great Seljuks",
+      "rating": 8.5,
+      "overview": "This film is about the history of great seljuks.",
+      "imageUrl": "https://aklifilm.com/wp-content/uploads/2022/11/KARAKTER1-1.jpg"  
+    },
+    {
+      "id": "8",
+      "name": "Hz Omer",
+      "rating": 9,
+      "overview": "This film is about the second khalifa Omer bin Khattab",
+      "imageUrl": "https://img01.imgsinemalar.com/images/afis_buyuk/s/samer-ismail-1411264869.jpg"  
+    }
+  ]
 }

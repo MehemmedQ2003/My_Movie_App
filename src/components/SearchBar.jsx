@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class SearchBar extends React.Component {
   handleFormSubmit = (event) => {
@@ -18,9 +19,9 @@ class SearchBar extends React.Component {
             />
           </div>
           <div className="col-lg-2 col-md-2 col-sm-12 my-2">
-            <button type="button" className="btn btn-md btn-danger w-100" style={{float: "right"}}>
+            <Link to="/add" type="button" className="btn btn-md btn-danger w-100" style={{float: "right"}}>
               Add Movie
-            </button>
+            </Link>
           </div>
         </div>
       </form>
